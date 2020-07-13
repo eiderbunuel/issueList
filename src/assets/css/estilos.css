@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+}
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+}
+
+#header img {
+    margin: 0 16px;
+}
+
+.content {
+    display: block;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+}
+h2.issues_title {
+    text-align: center;
+    background: aliceblue;
+    padding: 15px;
+}
+h2.issues_title a{
+    color:#1976d2;
+    text-decoration: none;
+}
+h2.issues_title a:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+h2.issues_title a:visited{
+    color:grey;
+    text-decoration: underline;
+}
+
+ul.list_issues {
+    margin: 10px 0;
+}
+.summary_issues {
+    margin: 0 0 10px 0;
+}
+.summary_issues a {
+    font-size: 20px;
+    color: #1976d2;
+    text-decoration: none;
+}
+.pages_issues.item_issues {
+    text-align: center;
+    margin: 10px 0;
+}
+.summary_issues a:hover {
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: underline;
+}
+.avatar-photo_issues img {
+    width: 80%;
+    border-radius: 45px;
+    box-shadow: 1px 3px 5px #888888;
+}
+li.item_issues {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 15px 0;
+}
+.id_summary {
+    margin-top: 5px;
+}
+.id_summary a {
+    font-size: 13px;
+    color: slategrey;
+}
+.id_summary a:hover {
+    font-size: 13px;
+    color: darkslategrey;
+    text-decoration: underline;
+}
+.tag{
+    color: #696f73;
+    background-color: #f4e4f7;
+    border-color: transparent;
+    position: relative;
+    display: inline-block;
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 40px;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+tag:hover{
+    color: #33658a;
+    background-color: #cee0ed;
+    border-color: rgba(0,0,0,0);
+}
+.ngx-pagination {
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background: #e1e1e1;
+    text-align: center;
+}
